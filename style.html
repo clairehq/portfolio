@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Claire Li - Style Guide</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" href="img/apple-touch-icon-144.jpg" />
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144.jpg" />
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-ipad.jpg"/>
+    <link rel="apple-touch-icon" sizes="167x167" href="img/apple-touch-icon-ipad-retina.jpg" />
+
+    <link rel="icon" type="img/png" href="img/favicon16.png" sizes="16x16" />
+    <link rel="icon" type="img/png" href="img/favicon32.png" sizes="32x32" />
+    <link rel="icon" type="img/png" href="img/favicon96.png" sizes="96x96" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="sidenav">
+        <header>
+          <nav class="nav flex-column">
+            <h1>
+              <a class="nav-link" href="index.html">MY PORTFOLIO</a>
+            </h1>
+            <a class="nav-link" href="#overview">overview</a>
+            <a class="nav-link no-show" href="#typography">typography</a>
+            <a class="nav-link" href="#color">color palette</a>
+            <a class="nav-link" href="#navigation">navigation</a>
+            <a class="nav-link" href="#button">button</a>
+            <a class="nav-link" href="#heading">heading</a>
+            <a class="nav-link" href="#paragraph">paragraph</a>
+            <a class="nav-link" href="#imagery">imagery</a>
+            <a class="nav-link" href="#citation">citation</a>
+          </nav>
+        </header>
+      </div>
+
+      <div id="main">
+        <h1>Style Guide</h1>
+
+        <section id="overview">
+          <div class="element">
+            <h2>Overview #</h2>
+            <p>This is a style guide for Hanqiao(Claire) Li's <a href="index.html">portfolio</a>.</p>
+          </div>
+        </section>
+
+        <section id="typography">
+          <div class="element">
+            <h2>Typography #</h2>
+            <p>Noto Sans, Sans-serif</p>
+            <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</P>
+            <p>abcdefghijklmnopqrstuvwxyz</p>
+            <p>1234567890</p>
+          </div>
+        </section>
+
+        <section id="color">
+          <div class="element">
+            <h2>Color Palette #</h2>
+            <div class="colour-palette">
+              <p class="black">Heading1 #000000 Opacity:0.84</p>
+              <p class="dark-grey">Heading2-4 #4A4A4A</p>
+              <p class="dark-grey">Text #4A4A4A</p>
+              <p class="grey">Anchor #818181</p>
+              <p class="pink">Anchor Hover #F0807F</p>
+              <p class="light-grey">Container #F1F1EE</P>
+            </div>
+          </div>
+        </section>
+
+        <section id="navigation">
+          <div class="element">
+            <h2>Navigation #</h2>
+            <p class="bold">selector:</p>
+            <p>.navbar,.navbar-logo,.topnav, #navbar</p>
+            <p class="bold">Sample code:</p>
+            <pre><code>
+    &lt;nav class="navbar"&gt;
+      &lt;div class="navbar-logo"&gt;
+        &lt;div class="logo"&gt;
+          &lt;a href="index.html"&gt;
+            &lt;img srcset="url" src="url" alt="name"&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="topnav" id="navbar"&gt;
+        &lt;a href="url"&gt;Works&lt;/a&gt;
+        &lt;a href="resume/resume.pdf"&gt;Resume&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/nav&gt;
+            </code></pre>
+            <p class="bold">Rendered element:</p>
+            <div class="container">
+      				<nav class="navbar">
+                <!-- Logo -->
+      					<div class="navbar-logo">
+      						<div class="logo">
+      							<a href="index.html">
+                      <img srcset="img/my-logo.png 2.5x" src="img/my-logo.png" alt="Claire Li">
+                    </a>
+      						</div>
+      					</div>
+      					<!-- Navigation -->
+                <div class="topnav" id="navbar">
+                  <a href="#">Works</a>
+                  <a href="resume/resume.pdf">Resume</a>
+                </div>
+      				</nav>
+      			</div>
+          </div>
+        </section>
+
+        <section id="button">
+          <div class="element">
+            <h2>Button #</h2>
+            <p class="bold">selector:</p>
+            <p>.button</p>
+            <p class="bold">Sample code:</p>
+            <pre><code>
+    &lt;div class="button"&gt;
+      &lt;a href="url"&gt;name&lt;/a&gt;
+    &lt;/div&gt;
+            </code></pre>
+            <p class="bold">Rendered element:</p>
+            <div class="button">
+              <a href="index.html">Portfolio</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="heading">
+          <div class="element">
+            <h2>Heading #</h2>
+            <p class="bold">selector:</p>
+            <p>h1,h2,h3,h4</p>
+            <p class="bold">Sample code:</p>
+            <pre><code>
+    &lt;h1&gt;&lt;/h1&gt;
+    &lt;h2&gt;&lt;/h2&gt;
+    &lt;h3&gt;&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+            </code></pre>
+            <p class="bold">Rendered element:</p>
+            <h1>Heading1</h1>
+            <h2>Heading2</h2>
+            <h3>Heading3</h3>
+            <h4>Heading4</h4>
+          </div>
+        </section>
+
+        <section id="paragraph">
+          <div class="element">
+            <h2>Paragraph #</h2>
+            <p class="bold">selector:</p>
+            <p>p</p>
+            <p class="bold">Sample code:</p>
+            <pre><code>
+     &lt;p&gt;&lt;/p&gt;
+            </code></pre>
+            <p class="bold">Rendered element:</p>
+            <p>This is a paragraph.</p>
+          </div>
+        </section>
+
+        <section id="imagery">
+          <div class="element">
+            <h2>Imagery #</h2>
+            <p class="bold">selector:</p>
+            <p>.img-listing, .img-title, .img</p>
+            <p class="bold">Sample code:</p>
+            <pre><code>
+     &lt;div class="img-listing"&gt;
+        &lt;p class="img-title"&gt;name&lt;/p&gt;
+        &lt;a href="img/mlgb/self-check-in.png"&gt;
+          &lt;img src="url" alt="text"&gt;
+        &lt;/a&gt;
+     &lt;/div&gt;
+            </code></pre>
+            <p class="bold">Rendered element:</p>
+            <div class="img-listing">
+              <p class="img-title">Self check in/out</P>
+              <a href="img/mlgb/self-check-in.png">
+                <img src="img/mlgb/self-check-in.png" alt="self check in/out interface">
+              </a>
+            </div>
+          </div>
+
+          <p class="bold">Sample code:</p>
+          <pre><code>
+   &lt;div class="image-container project2"&gt;
+      &lt;a href="url"&gt;
+       &lt;p class="img-title"&gt;
+        &lt;span&gt;title name&lt;/span&gt;
+        &lt;span&gt;description&lt;/span&gt;
+       &lt;/p&gt;
+       &lt;img src="url" alt="text" class="img-responsive"&gt;
+       &lt;div class="overlay fade"&gt;
+        &lt;span class="caption"&gt;text&lt;/span&gt;
+       &lt;/div&gt;
+      &lt;/a&gt;
+   &lt;/div&gt;
+          </code></pre>
+
+          <p class="bold">Rendered element:</p>
+            <div class="image-container project2" data-filter="interface design">
+              <a href="movie-hat.html">
+                <p class="img-title">
+                  <span>Movie Hat</span>
+                  <span>feature Design/ ui+ux Design</span>
+                </P>
+                <img src="img/projects/moviehat-opt.png" alt="movie hat interface image" class="img-responsive">
+                <div class="overlay fade">
+                  <span class="caption">Movie Hat — feature design and ui+ux design</span>
+                </div>
+              </a>
+            </div>
+        </section>
+
+        <section id="citation">
+          <div class="element">
+            <h2>Citation #</h2>
+            <ul>
+              <li>Otto, M., & Thornton, J. (n.d.). Bootstrap. Retrieved from <a href="https://getbootstrap.com/">https://getbootstrap.com/</a></li>
+              <li>How TO - Circles. (n.d.). Retrieved from <a href="https://www.w3schools.com/howto/howto_css_circles.asp">https://www.w3schools.com/howto/howto_css_circles.asp</a></li>
+              <li>CSS Layout - Horizontal & Vertical Align. (n.d.). Retrieved from <a href="https://www.w3schools.com/css/css_align.asp">https://www.w3schools.com/css/css_align.asp</a></li>
+              <li>Pure CSS image zoom on hover inside a div. (n.d.). Retrieved from <a href="https://codepen.io/lucy_wheel/pen/VxYzKP">https://codepen.io/lucy_wheel/pen/VxYzKP</a></li>
+              <li>Simple Image Overlay Hover Effects. (n.d.). Retrieved from <a href="https://codepen.io/ArnaudBalland/pen/vGZKLr">https://codepen.io/ArnaudBalland/pen/vGZKLr</a></li>
+              <li>How TO - Responsive Sidebar. (n.d.). Retrieved from <a href="https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp">https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp</a></li>
+              <li>Handling Long Words and URLs (Forcing Breaks, Hyphenation, Ellipsis, etc). (n.d.). Retrieved from <a href="https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/">https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/</a></li>
+              <li>AFarkas. (2018, October 29). AFarkas/lazysizes. Retrieved from <a href="https://github.com/aFarkas/lazysizes">https://github.com/aFarkas/lazysizes</a></li>
+            </ul>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </body>
+</html>
