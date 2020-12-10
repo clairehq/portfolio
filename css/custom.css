@@ -61,9 +61,12 @@ p {
 }
 #my-projects h2, #showcase a, #showcase p {
   text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 #about-me h1, #main h1 {
   text-align: left;
+  margin: 0 15px;
 }
 .sidenav a.active, .sidenav a:hover:not(.active) {
   color: #F0807F;
@@ -125,10 +128,16 @@ header div.container {
 #my-projects h2, #showcase h1, .banner, .image-container {
   margin-bottom: 2rem;
 }
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 #navbar a {
   position: relative;
   letter-spacing: .15rem;
-  margin-left: 3rem;
+  margin-left: 20px;
   font-size: 1.1125rem;
 }
 .banner img, .profile img {
@@ -234,11 +243,11 @@ header div.container {
   text-align: center;
 }
 #about-me p {
-  padding-bottom: 3rem;
+  margin: 15px 15px;
 }
 .profile {
-  padding-bottom: 3rem;
-  padding-top: 8rem;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
 }
 .profile img {
   max-width: 80%}
@@ -395,9 +404,6 @@ section {
 .col-lg-6 {
   padding-left: 0;
   padding-right: 0;
-}
-#about-me p {
-  margin-top: 1rem;
 }
 .col-md-6 p {
   padding-bottom: 1rem;
