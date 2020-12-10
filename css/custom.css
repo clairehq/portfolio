@@ -59,10 +59,8 @@ p {
   padding: .375rem .5rem .375rem 1rem;
   font-size: 1.125rem;
 }
-#my-projects h2, #showcase a, #showcase p {
+#my-projects h2, #showcase a {
   text-align: center;
-  margin-left: 15px;
-  margin-right: 15px;
 }
 #about-me h1, #main h1 {
   text-align: left;
@@ -173,6 +171,14 @@ header div.container {
 #showcase {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+#showcase p {
+  line-height: 30px;
+}
+#introduction {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #my-projects {
   padding-top: 3rem;
@@ -389,7 +395,7 @@ header div.container {
   padding-top: 1rem;
 }
 section {
-  margin-top: 2rem;
+  margin-top: 0rem;
 }
 .element {
   margin-top: 0;
