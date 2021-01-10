@@ -5,7 +5,7 @@
   display: block;
 }
 #showcase a, p {
-  letter-spacing: .078rem;
+  letter-spacing: .02rem;
 }
 #about-me p, section {
   margin-top: 3rem;
@@ -29,7 +29,7 @@ h1 {
   text-align: center;
   color: rgba(0, 0, 0, .84);
 }
-h2, h3, p {
+h2, h3, h4, p {
   color: #4a4a4a;
 }
 h2 {
@@ -277,6 +277,16 @@ header div.container {
 
 .work-section .bullet {
   line-height: 0rem;
+}
+
+.work-section .bullet-point {
+  padding-bottom: 2.1rem;
+  margin-bottom: 0;
+}
+
+.work-section .number-list {
+  padding-bottom: 2.1rem;
+  margin-bottom: 0;
 }
 
 .work-section .bold {
