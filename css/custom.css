@@ -9,6 +9,7 @@
 }
 #about-me p, section {
   margin-top: 3rem;
+  padding-bottom: 5rem;
 }
 #imagery a, #my-projects a, #navbar a, .button a, .sidenav a {
   text-decoration: none;
