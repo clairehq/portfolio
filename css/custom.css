@@ -62,6 +62,7 @@ p {
 }
 #my-projects h2, #showcase a {
   text-align: center;
+  font-weight: 600;
 }
 #about-me h1, #main h1 {
   text-align: left;
