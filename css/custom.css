@@ -8,7 +8,7 @@
   letter-spacing: .02rem;
 }
 #about-me p, section {
-  margin-top: 3rem;
+  margin-top: 5rem;
   padding-bottom: 5rem;
 }
 #imagery a, #my-projects a, #navbar a, .button a, .sidenav a {
@@ -21,17 +21,20 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 a {
-  color: #818181;
+  color: rgb(142,142,147);
 }
 a:hover {
-  color: #F0807F;
+  color: #66ff66;
 }
 h1 {
   text-align: center;
-  color: rgba(0, 0, 0, .84);
+  color: #fff;
 }
-h2, h3, h4, p {
-  color: #4a4a4a;
+h2, h3, h4{
+  color:#fff;
+}
+p {
+  color:rgb(142,142,147);
 }
 h2 {
   margin-bottom: 1rem;
@@ -51,7 +54,7 @@ p {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #f1f1ee;
+  background-color: #fff;
   overflow-x: hidden;
   padding: 5rem 2rem;
 }
@@ -64,12 +67,15 @@ p {
   text-align: center;
   font-weight: 600;
 }
-#about-me h1, #main h1 {
+#about-me h1 {
   text-align: left;
   margin: 0 15px 15px 15px;
 }
+#main h1 {
+  text-align: left;
+}
 .sidenav a.active, .sidenav a:hover:not(.active) {
-  color: #F0807F;
+  color: #66ff66;
 }
 #main {
   margin-left: 30%;
@@ -79,19 +85,22 @@ p {
 #main h1 {
   padding-top: 5.5rem;
 }
+#main .colour-palette p {
+  color: #fff;
+}
 .black, .dark-grey {
   color: #fff;
   padding: 1.5rem;
 }
 .black {
-  background-color: rgba(0, 0, 0, .84);
+  background-color: #000;
 }
 .dark-grey {
-  background-color: #4a4a4a;
+  background-color: #3c3c3c;
 }
 .light-grey {
   color: #000;
-  background-color: #f1f1ee;
+  background-color: #f1f2f3;
   padding: 1.5rem;
 }
 .grey, .pink {
@@ -99,18 +108,18 @@ p {
   padding: 1.5rem;
 }
 .grey {
-  background-color: #818181;
+  background-color: #8E8E93;
 }
 .pink {
-  background-color: #f0807f;
+  background-color: #66ff66;
 }
 #heading h1 {
   padding: .2rem;
 }
 pre {
-  background-color: #ddd;
+  background-color: #000;
   padding: 0;
-  color: #F0807F;
+  color: #66ff66;
   font-size: 100%}
 #imagery .img-title {
   font-weight: 500;
@@ -150,7 +159,7 @@ header div.container {
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: #F0807F;
+  background-color: #66ff66;
   width: 0;
   height: 3px;
   transition: all .5s;
@@ -162,13 +171,13 @@ header div.container {
   height: 100%;
   width: 100%}
 #navbar a:hover {
-  color: #F0807F;
+  color: #66ff66;
   transition: all .7s;
 }
 #navbar a:hover:after {
   width: 100%}
 .wrapper {
-  background-color: #f1f1ee;
+  background-color: #000;
 }
 #showcase {
   padding-top: 5rem;
@@ -188,22 +197,25 @@ header div.container {
 }
 .image-container {
   position: relative;
+  border-radius: 8px;
+  box-shadow: inset 0px 0.5px 2px rgb(155 155 155 / 10%);
 }
 .caption, .overlay {
   position: absolute;
 }
 .sub-title {
   text-align: center;
-  color: #868686;
+  color: rgb(142,142,147);
+  padding-bottom: 0.5rem;
 }
 .project1 {
   background-color: #77ade4;
 }
 .project2 {
-  background-color: #FFAB97;
+  background-color: #f97f92;
 }
 .project3 {
-  background-color: #D86995;
+  background-color: #69d8a8;
 }
 .project4 {
   background-color: #5C83FF;
@@ -249,7 +261,7 @@ header div.container {
   text-align: center;
 }
 #about-me p {
-  margin: 0px 15px 15px 15px;
+  margin: 0px 15px 30px 15px;
   padding: 0;
 }
 .work h2 {
@@ -259,6 +271,15 @@ header div.container {
   max-width: 100%}
 .banner img {
   max-width: 40%}
+.work-wrapper {
+    background-color: #fff;
+}
+.work-wrapper h1,h2,h3,h4{
+  color:#000;
+}
+.work-wrapper p{
+  color: #3c3c3c;
+}
 .work-section {
   padding-left: 10%;
   padding-right: 10%}
@@ -312,7 +333,38 @@ header div.container {
 .table {
   margin-top: 3rem;
   margin-bottom: 3rem;
-  background-color: #e7e7e7;
+  background-color: #fff;
+  box-shadow:rgb(46 175 240 / 40%) 5px 5px, rgb(46 142 240 / 30%) 10px 10px, rgb(46 186 240 / 20%) 15px 15px, rgb(46 168 240 / 10%) 20px 20px, rgb(46 204 240 / 5%) 25px 25px;
+}
+.table-2 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: #fff;
+ box-shadow: rgb(240 46 133 / 40%) 5px 5px, rgb(240 46 100 / 30%) 10px 10px, rgb(240 46 118 / 20%) 15px 15px, rgb(240 46 82 / 10%) 20px 20px, rgb(240 46 109 / 5%) 25px 25px;
+}
+.table-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: #fff;
+  box-shadow:rgb(46 240 197 / 40%) 5px 5px, rgb(46 240 142 / 30%) 10px 10px, rgb(46 240 177 / 20%) 15px 15px, rgb(46 240 124 / 10%) 20px 20px, rgb(46 240 124 / 5%) 25px 25px
+}
+.table-4 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: #fff;
+  box-shadow:rgb(46 94 240 / 40%) 5px 5px, rgb(46 115 240 / 30%) 10px 10px, rgb(46 88 240 / 20%) 15px 15px, rgb(46 133 240 / 10%) 20px 20px, rgb(46 124 240 / 5%) 25px 25px
+}
+.table-5 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: #fff;
+  box-shadow: rgb(253 175 221 / 40%) 5px 5px, rgb(251 174 231 / 30%) 10px 10px, rgb(253 160 216 / 20%) 15px 15px, rgb(249 149 214 / 10%) 20px 20px, rgb(247 145 201 / 5%) 25px 25px;
+}
+.table-6 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: #fff;
+  box-shadow: rgb(141 46 240 / 40%) 5px 5px, rgb(147 46 240 / 30%) 10px 10px, rgb(165 46 240 / 20%) 15px 15px, rgb(165 46 240 / 10%) 20px 20px, rgb(183 46 240 / 5%) 25px 25px;
 }
 .list-content {
   padding: 1rem;
@@ -328,7 +380,7 @@ header div.container {
   display: inline-block;
 }
 .img-listing {
-  background-color: #E0E0E0;
+  background-color: #f1f2f3;
   padding: 2rem;
   margin-bottom: 2rem;
 }
@@ -353,7 +405,7 @@ header div.container {
 }
 .button:hover {
   color: #818181;
-  background-color: #F0807F;
+  background-color: #66ff66;
 }
 #end {
   padding-top: 1rem;
@@ -367,8 +419,9 @@ header div.container {
   margin: .5rem;
 }
 #footer {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  background-color: #000;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 #footer h1 {
   color: #f1f1f1;
@@ -390,7 +443,7 @@ header div.container {
   margin-right: 1rem;
 }
 .fa:hover {
-  color: #F0807F;
+  color: #66ff66;
   transition: all .5s;
 }
 @media screen and (max-width:60.625em) {
