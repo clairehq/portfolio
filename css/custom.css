@@ -221,7 +221,7 @@ header div.container {
   background-color: #ff014d;
 }
 .project3 {
-  background-color: #69d8a8;
+  background-color: #32b8e8;
 }
 .project4 {
   background-color: #5C83FF;
@@ -352,7 +352,7 @@ header div.container {
   margin-top: 3rem;
   margin-bottom: 3rem;
   background-color: #fff;
-  box-shadow:rgb(46 240 197 / 40%) 5px 5px, rgb(46 240 142 / 30%) 10px 10px, rgb(46 240 177 / 20%) 15px 15px, rgb(46 240 124 / 10%) 20px 20px, rgb(46 240 124 / 5%) 25px 25px
+  box-shadow:rgb(46 193 240 / 40%) 5px 5px, rgb(46 231 240 / 30%) 10px 10px, rgb(46 231 240 / 20%) 15px 15px, rgb(46 186 240 / 10%) 20px 20px, rgb(46 231 240 / 5%) 25px 25px;
 }
 .table-4 {
   margin-top: 3rem;
