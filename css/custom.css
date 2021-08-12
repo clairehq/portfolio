@@ -401,16 +401,15 @@ header div.container {
 .button {
   position: relative;
   padding: 1rem;
-  background-color: #818181;
+  background-color: #000;
   transition-property: background-color;
   transition-duration: .4s;
   margin-bottom: 2.1rem;
 }
-.button a {
+.button {
   color: #fff;
 }
 .button:hover {
-  color: #818181;
   background-color: #66ff66;
 }
 #end {
