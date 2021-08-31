@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 a {
   color: rgb(142,142,147);
@@ -189,9 +189,18 @@ header div.container {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-#showcase p {
-  line-height: 30px;
+#showcase h1{
+font-size: 72px;
 }
+
+#showcase p {
+  font-size: 22px;
+  line-height: 50px;
+}
+.highlight {
+  color: #ffffff;
+}
+
 #introduction {
   width: 70%;
   margin-left: auto;
@@ -287,8 +296,8 @@ header div.container {
   color: #3c3c3c;
 }
 .work-section {
-  padding-left: 10%;
-  padding-right: 10%}
+  padding-left: 15%;
+  padding-right: 15%}
 .work-section h2 {
   font-size: 1.75rem;
   padding-bottom: .7rem;
