@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="preload" href="css/non-critical.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
@@ -47,64 +48,60 @@
             <div class="topnav" id="navbar">
               <a href="index.html#my-projects" id="work-d">WORK</a>
               <a href="about-me.html">ABOUT</a>
-              <!-- <a href="resume/resume.pdf">Resume</a> -->
             </div>
   				</nav>
   			</div>
   		</header>
 
       <section class="work">
+        <div class="banner project5">
+          <img src="img/projects/uflorist-opt.png" alt="uflorist banner">
+        </div>
         <div class="container">
-          <div class="banner project5">
-            <img src="img/projects/uflorist-opt.png" alt="uflorist banner">
-          </div>
-
           <div class="work-section">
-            <h1>UFlorist Landing Page</h1>
-
-            <ul class="row table-5">
+            <h1 data-aos='fade-in'>UFlorist Landing Page</h1>
+            <ul class="row table-5" data-aos='fade-in'>
               <li class="col-md-6">
                 <p class="list-content">
                   <span class="list-title">Date:</span>
-                  <span class="list-caption">April, 2020</span>
+                  <span class="list-caption">april, 2020</span>
                 </p>
               </li>
               <li class="col-md-6">
                 <p class="list-content">
                   <span class="list-title">My Role:</span>
-                  <span class="list-caption">Web designer，web developer</span>
+                  <span class="list-caption">sole web designer，sole web developer</span>
                 </p>
               </li>
-              <!-- <div class="w-100"></div> -->
               <li class="col-md-6">
                 <p class="list-content">
                   <span class="list-title">Type:</span>
-                  <span class="list-caption">Individual Project</span>
+                  <span class="list-caption">individual project</span>
                 </p>
               </li>
               <li class="col-md-6">
                 <p class="list-content">
                   <span class="list-title">Tools:</span>
-                  <span class="list-caption">VS Code, Git, Online free template</span>
+                  <span class="list-caption">VS code, git, online free template, mailchimp </span>
                 </p>
               </li>
             </ul>
 
-            <h2>Project Description</h2>
-            <p>This project is a customized startup landing page using a free online HTML/CSS temple. I decided to do a landing page for a flower delivery service. To practice how to use Mailchimp, I also added an email subscribe function to the template.</P>
+            <h2 data-aos='fade-in'>Project Description</h2>
+            <p data-aos='fade-in'>This project is a customized startup landing page using a free online HTML/CSS temple. I decided to do a landing page for a flower delivery service. To practice how to use Mailchimp, I also added an email subscribe function to the template.</P>
             
-            <h2>Website Overview</h2>
-            <div class="img-listing">
+            <h2 data-aos='fade-in'>Website Overview</h2>
+            <div class="img-listing" data-aos='fade-in'>
               <a href="img/uflorist/uflorist.png">
                 <img src="img/uflorist/uflorist-opt.png" data-src="img/uflorist/uflorist.png" class="lazyload blur" alt="homepage image">
                 <noscript><img src="img/uflorist/uflorist.png" alt="homepage image"></noscript>
               </a>
             </div>
-            <a href="https://clairehq.github.io/uFlorist/">
+            <a href="https://clairehq.github.io/uFlorist/" data-aos='fade-in'>
               <div class="button">Open the Website</div>
             </a>
           </div>
-          <div id="end">
+          <div id="end" data-aos='fade-in'>
             <span class="dot"></span>
             <span class="dot"></span>
             <span class="dot"></span>
@@ -142,5 +139,14 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+        once: true,
+      });
+    </script>
   </body>
 </html>

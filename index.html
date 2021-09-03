@@ -7,7 +7,8 @@
     <title>Claire Li - Portfolio</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/custom.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,13 +59,15 @@
       </section>
 
       <section id="my-projects">
-        <div class="container">
+        <div class="container" data-aos='fade-in'>
           <h2>Work</h2>
+          
           <div class="row">
             <div class="col-sm-12">
               <h4 class="sub-title">Product Design Works</h4>
             </div>
-            <div class="col-sm-6">
+
+            <div class="col-sm-6" data-aos='fade-in'>
               <div class="image-container project1" data-filter="interface design">
                 <a href="mlgb-esport-club.html">
                   <p class="img-title">
@@ -79,7 +82,7 @@
               </div>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-6" data-aos='fade-in'>
               <div class="image-container project2" data-filter="interface design">
                 <a href="movie-hat.html">
                   <p class="img-title">
@@ -94,7 +97,7 @@
               </div>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-6" data-aos='fade-in'>
               <div class="image-container project3" data-filter="branding">
                 <a href="vimeo.html">
                   <p class="img-title">
@@ -112,7 +115,7 @@
             <!-- <div class="col-sm-12">
               <h4 class="sub-title">Graphic Design</h4>
             </div> -->
-            <div class="col-sm-6">
+            <div class="col-sm-6" data-aos='fade-in'>
               <div class="image-container project4" data-filter="branding">
                 <a href="m&z.html">
                   <p class="img-title">
@@ -143,10 +146,10 @@
               </div>
             </div> -->
 
-            <div class="col-sm-12">
+            <div class="col-sm-12" data-aos='fade-in'>
               <h4 class="sub-title">Web Design & Web Development Works</h4>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6" data-aos='fade-in'>
               <div class="image-container project5" data-filter="web development">
                 <a href="uflorist.html">
                   <p class="img-title">
@@ -161,7 +164,7 @@
               </div>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-6" data-aos='fade-in'>
               <div class="image-container project6" data-filter="web development">
                 <a href="smartbrain.html">
                   <p class="img-title">
@@ -208,6 +211,15 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+        offset: 300,
+        duration: 2000,
+        once: true,
+      });
+      </script>
 
   </body>
 </html>
