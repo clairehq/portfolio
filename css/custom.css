@@ -140,8 +140,12 @@ header div.container {
   padding: 1.875rem 0;
   margin-bottom: 1rem;
 }
-#my-projects h2, #showcase h1, .banner, .image-container {
+#my-projects h2, #showcase h1, .image-container {
   margin-bottom: 2rem;
+}
+
+.banner {
+  margin-bottom: 5rem;
 }
 .navbar {
   display: flex;
@@ -224,22 +228,22 @@ font-size: 72px;
   padding-bottom: 0.5rem;
 }
 .project1 {
-  background-color: #8c34ff;
+  background: linear-gradient(304deg, rgba(196,150,255,1) 0%, rgba(140,52,255,1) 75%);
 }
 .project2 {
-  background-color: #ff014d;
+  background: linear-gradient(304deg, rgba(252,67,123,1) 0%, rgba(255,1,77,1) 75%);
 }
 .project3 {
-  background-color: #32b8e8;
+  background: linear-gradient(304deg, rgba(103,197,231,1) 0%, rgba(50,184,232,1) 75%);
 }
 .project4 {
-  background-color: #5C83FF;
+  background: linear-gradient(304deg, rgba(134,163,255,1) 0%, rgba(92,131,255,1) 75%);
 }
 .project5 {
-  background-color: #ffcad7;
+  background: linear-gradient(304deg, rgba(255,226,233,1) 0%, rgba(255,202,215,1) 75%);
 }
 .project6 {
-  background-color: #cdb0f3;
+  background: linear-gradient(304deg, rgba(223,207,244,1) 0%, rgba(205,176,243,1) 75%);
 }
 #my-projects .img-title {
   font-weight: 500;
@@ -267,7 +271,7 @@ font-size: 72px;
 .fade {
   top: 0;
   left: 0;
-  background-color: #0000008e;
+  background-color: #000000d9;
 }
 
 .image-container:hover .fade {
@@ -285,7 +289,7 @@ font-size: 72px;
 .img-showcase img {
   max-width: 100%}
 .banner img {
-  max-width: 40%}
+  max-width: 50%}
 .work-wrapper {
     background-color: #fff;
 }
@@ -297,9 +301,12 @@ font-size: 72px;
 }
 .work-section {
   padding-left: 15%;
-  padding-right: 15%}
+  padding-right: 15%
+}
+
 .work-section h2 {
   font-size: 1.75rem;
+  padding-top: 1rem;
   padding-bottom: .7rem;
   margin: 0;
 }
@@ -314,7 +321,7 @@ font-size: 72px;
 }
 
 .work-section .bullet {
-  line-height: 0rem;
+  line-height: 1rem;
 }
 
 .work-section .bullet-point {
@@ -346,8 +353,8 @@ font-size: 72px;
   margin: 0;
 }
 .table {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   background-color: #fff;
   box-shadow:rgb(105 46 240 / 40%) 5px 5px, rgb(112 46 240 / 30%) 10px 10px, rgb(139 46 240 / 20%) 15px 15px, rgb(130 46 240 / 10%) 20px 20px, rgb(112 46 240 / 5%) 25px 25px;
 }
