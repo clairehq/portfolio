@@ -237,12 +237,15 @@ font-size: 72px;
   background: linear-gradient(304deg, rgba(103,197,231,1) 0%, rgba(50,184,232,1) 75%);
 }
 .project4 {
-  background: linear-gradient(304deg, rgba(134,163,255,1) 0%, rgba(92,131,255,1) 75%);
+  background: linear-gradient(304deg, rgba(144,193,193,1) 0%, rgba(19,194,194,1) 75%);
 }
 .project5 {
-  background: linear-gradient(304deg, rgba(255,226,233,1) 0%, rgba(255,202,215,1) 75%);
+  background: linear-gradient(304deg, rgba(134,163,255,1) 0%, rgba(92,131,255,1) 75%);
 }
 .project6 {
+  background: linear-gradient(304deg, rgba(255,226,233,1) 0%, rgba(255,202,215,1) 75%);
+}
+.project7 {
   background: linear-gradient(304deg, rgba(223,207,244,1) 0%, rgba(205,176,243,1) 75%);
 }
 #my-projects .img-title {
@@ -388,6 +391,14 @@ font-size: 72px;
   background-color: #fff;
   box-shadow: rgb(141 46 240 / 40%) 5px 5px, rgb(147 46 240 / 30%) 10px 10px, rgb(165 46 240 / 20%) 15px 15px, rgb(165 46 240 / 10%) 20px 20px, rgb(183 46 240 / 5%) 25px 25px;
 }
+
+.table-7 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: #fff;
+  box-shadow: rgb(70 249 232 / 40%) 5px 5px, rgb(46 240 240 / 30%) 10px 10px, rgb(46 240 231 / 20%) 15px 15px, rgb(46 222 240 / 10%) 20px 20px, rgb(46 231 240 / 5%) 25px 25px;
+}
+
 .list-content {
   padding: 1rem;
   margin: 0;
